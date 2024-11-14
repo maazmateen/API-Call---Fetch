@@ -39,6 +39,9 @@ btn.addEventListener("click",function buttonclick(){
         `
         
     }).catch((error)=>{
+        div.innerHTML =`
+        <h1>User Not Found</h1>
+        `
         console.log(error);
         
     })
